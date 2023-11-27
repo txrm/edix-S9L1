@@ -1,5 +1,7 @@
 import unittest
 
+from calc import sumar, restar, multiplicar, dividir
+
 class TestCalc(unittest.TestCase):
 
     def test_sumar(self):
